@@ -9,4 +9,5 @@ playlist = Playlist.new("jones")
 playlist.adiciona_filmes(filme1)
 playlist.adiciona_filmes(filme2)
 playlist.adiciona_filmes(filme3)
-playlist.tocar
+playlist.tocar(3)
+playlist.mostrar_status
